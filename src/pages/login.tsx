@@ -65,7 +65,7 @@ export default function LoginPage() {
 
       {/* Right Auth Card */}
       <div className="flex-1 flex items-center justify-center relative bg-gray-50">
-        <form onSubmit={handleSubmit} className="bg-white p-8 rounded-2xl shadow-2xl w-96">
+        <form onSubmit={handleSubmit} className="bg-white p-8 rounded-2xl shadow-sm w-96">
           <h2 className="text-2xl mb-6 text-center font-semibold">
             {isRegisterMode ? t('auth.register') : t('auth.login')}
           </h2>
