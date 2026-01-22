@@ -5,7 +5,7 @@ import NotificationsPanel from '@/components/dashboard/NotificationsPanel';
 
 export default function Dashboard() {
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="min-h-screen flex flex-col">
       <Navbar />
 
       {/* Main Content */}

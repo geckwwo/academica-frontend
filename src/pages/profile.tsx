@@ -191,7 +191,7 @@ export default function ProfilePage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-50 flex flex-col">
+      <div className="min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-1 flex items-center justify-center">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary" />
@@ -203,7 +203,7 @@ export default function ProfilePage() {
 
   if (!profile) {
     return (
-      <div className="min-h-screen bg-gray-50 flex flex-col">
+      <div className="min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-1 flex items-center justify-center">
           <div className="text-center">
@@ -218,7 +218,7 @@ export default function ProfilePage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="min-h-screen flex flex-col">
       <Navbar />
 
       <main className="flex-1">
