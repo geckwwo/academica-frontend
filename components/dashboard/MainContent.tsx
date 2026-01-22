@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { useSearchParams } from 'react-router-dom';
 import { Filter, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { api, type Opportunity } from '@/lib/api';
+import type { Opportunity } from '@/lib/api';
 import OpportunityCard from './OpportunityCard';
 import PersonCard from './PersonCard';
 
@@ -87,21 +87,13 @@ export default function MainContent() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const fetchOpportunities = async () => {
-      setLoading(true);
-      try {
-        const tab = tabs.find((t) => t.id === activeTab);
-        const data = await api.getOpportunities(tab?.category || undefined);
-        setOpportunities(data.length > 0 ? data : mockOpportunities);
-      } catch (error) {
-        console.error('Failed to fetch opportunities:', error);
-        setOpportunities(mockOpportunities);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchOpportunities();
+    // Use mock data directly (backend disconnected)
+    setLoading(true);
+    // Simulate loading delay
+    setTimeout(() => {
+      setOpportunities(mockOpportunities);
+      setLoading(false);
+    }, 300);
   }, [activeTab]);
 
   const handleTabChange = (tabId: string) => {

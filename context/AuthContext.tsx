@@ -1,5 +1,4 @@
 import { createContext, useContext, useState, useEffect, type ReactNode } from 'react';
-import { api } from '@/lib/api';
 
 interface AuthContextType {
   isAuthenticated: boolean;
@@ -19,16 +18,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [needsOnboarding, setNeedsOnboarding] = useState(false);
 
   useEffect(() => {
-    // Check if user is already authenticated
-    const checkAuth = async () => {
-      if (api.isAuthenticated()) {
-        try {
-          await api.getProfile();
-          setIsAuthenticated(true);
-        } catch {
-          api.logout();
-          setIsAuthenticated(false);
-        }
+    // Check if user is already authenticated (using localStorage)
+    const checkAuth = () => {
+      const authToken = localStorage.getItem('auth_token');
+      if (authToken) {
+        setIsAuthenticated(true);
       }
       setIsLoading(false);
     };
@@ -36,20 +30,26 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const login = async (email: string, password: string) => {
-    await api.login({ email, password });
+    // Mock login - just set auth state without backend call
+    localStorage.setItem('auth_token', 'mock_token');
+    localStorage.setItem('user_email', email);
     setIsAuthenticated(true);
     setNeedsOnboarding(false);
   };
 
   const register = async (email: string, username: string, password: string) => {
-    await api.register({ email, username, password });
-    await api.login({ email, password });
+    // Mock registration - just set auth state without backend call
+    localStorage.setItem('auth_token', 'mock_token');
+    localStorage.setItem('user_email', email);
+    localStorage.setItem('user_username', username);
     setIsAuthenticated(true);
     setNeedsOnboarding(true);
   };
 
   const logout = () => {
-    api.logout();
+    localStorage.removeItem('auth_token');
+    localStorage.removeItem('user_email');
+    localStorage.removeItem('user_username');
     setIsAuthenticated(false);
     setNeedsOnboarding(false);
   };

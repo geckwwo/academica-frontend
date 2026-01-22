@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { ChevronDown } from 'lucide-react';
-import { api } from '@/lib/api';
 import { useAuth } from '@/context/AuthContext';
 
 export default function Onboarding() {
@@ -27,13 +26,13 @@ export default function Onboarding() {
   const handleComplete = async () => {
     setIsSubmitting(true);
     try {
-      await api.updateProfile({
-        bio: `Target: ${formData.target}\nSkills: ${formData.skills}\nHobbies: ${formData.hobbies}`,
-      });
+      // Save profile data to localStorage (no backend call)
+      localStorage.setItem('user_profile', JSON.stringify({
+        target: formData.target,
+        skills: formData.skills,
+        hobbies: formData.hobbies,
+      }));
       setNeedsOnboarding(false);
-      navigate('/dashboard');
-    } catch (error) {
-      console.error('Failed to save profile:', error);
       navigate('/dashboard');
     } finally {
       setIsSubmitting(false);
