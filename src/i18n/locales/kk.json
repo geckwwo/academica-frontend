@@ -1,0 +1,133 @@
+{
+  "auth": {
+    "welcome": "Academica Hub-қа қош келдіңіз",
+    "login": "Кіру",
+    "register": "Тіркелу",
+    "email": "Email",
+    "username": "Пайдаланушы аты",
+    "password": "Құпия сөз",
+    "loading": "Жүктелуде...",
+    "error": "Қате орын алды",
+    "createAccount": "Аккаунт жасау",
+    "haveAccount": "Аккаунтыңыз бар ма?",
+    "noAccount": "Аккаунтыңыз жоқ па? Тіркеліңіз",
+    "problems": "Мәселелер?",
+    "contactSupport": "Қолдау қызметіне хабарласыңыз"
+  },
+  "onboarding": {
+    "joinTitle": "ҚОСЫЛЫҢЫЗ",
+    "joinSubtitle": "ACADEMICA HUB",
+    "step": "{{total}} ішінен {{current}}-қадам",
+    "steps": {
+      "target": {
+        "title": "Сіздің мақсатыңыз",
+        "description": "Сіз неге қол жеткізгіңіз келеді?",
+        "placeholder": "мыс., Бағдарламашы болу"
+      },
+      "skills": {
+        "title": "Сіздің дағдыларыңыз",
+        "description": "Сізде қандай дағдылар бар?",
+        "placeholder": "мыс., JavaScript, React, Дизайн"
+      },
+      "hobbies": {
+        "title": "Сіздің хоббиіңіз",
+        "description": "Сіз нені ұнатасыз?",
+        "placeholder": "мыс., Оқу, Ойындар, Музыка"
+      }
+    },
+    "next": "Келесі",
+    "complete": "Аяқтау",
+    "saving": "Сақталуда..."
+  },
+  "navbar": {
+    "search": "Мүмкіндіктерді, адамдарды іздеу...",
+    "profile": "Профиль",
+    "settings": "Параметрлер",
+    "logout": "Шығу"
+  },
+  "tabs": {
+    "internships": "Тағылымдамалар",
+    "grants": "Гранттар/Стипендиялар",
+    "events": "Іс-шаралар",
+    "mentors": "Тәлімгерлер",
+    "housing": "Тұрғын үй",
+    "clubs": "Клубтар"
+  },
+  "main": {
+    "recommendedPeople": "Ұсынылған адамдар",
+    "recommendedOpportunities": "Ұсынылған мүмкіндіктер",
+    "viewAll": "Барлығын көру",
+    "filter": "Сүзгі",
+    "noOpportunities": "Мүмкіндіктер табылмады"
+  },
+  "notifications": {
+    "title": "Хабарландырулар",
+    "askAI": "AI көмекшісінен сұрау"
+  },
+  "people": {
+    "lookingFor": "Іздейді",
+    "connect": "Байланысу"
+  },
+  "categories": {
+    "internship": "Тағылымдама",
+    "grant": "Грант",
+    "hackathon": "Хакатон",
+    "job": "Жұмыс",
+    "mentor": "Тәлімгер",
+    "event": "Іс-шара"
+  },
+  "trust": {
+    "official": "Ресми",
+    "trusted": "Сенімді",
+    "unverified": "Тексерілмеген"
+  },
+  "opportunity": {
+    "expired": "Мерзімі өтті",
+    "today": "Бүгін",
+    "tomorrow": "Ертең",
+    "daysLeft": "{{days}} күн қалды",
+    "back": "Артқа",
+    "notFound": "Мүмкіндік табылмады",
+    "backToDashboard": "Басты бетке оралу",
+    "deadline": "Мерзімі",
+    "source": "Дереккөз",
+    "description": "Сипаттама",
+    "requirements": "Талаптар",
+    "apply": "Өтініш беру"
+  },
+  "footer": {
+    "description": "Бүкіл әлем бойынша академиялық мүмкіндіктерге жол. Тағылымдамалар, стипендиялар, тәлімгерлер табыңыз.",
+    "programs": "Бағдарламалар",
+    "internships": "Тағылымдамалар",
+    "scholarships": "Стипендиялар",
+    "mentors": "Тәлімгерлер",
+    "housing": "Тұрғын үй",
+    "clubs": "Клубтар",
+    "contacts": "Байланыс",
+    "rights": "Барлық құқықтар қорғалған",
+    "privacy": "Құпиялылық саясаты"
+  },
+  "dashboard": {
+    "welcome": "Academica Hub-қа қош келдіңіз",
+    "logout": "Шығу",
+    "opportunities": "Мүмкіндіктер",
+    "opportunitiesDesc": "Тағылымдамалар, гранттар және т.б.",
+    "explore": "Зерттеу",
+    "community": "Қауымдастық",
+    "communityDesc": "Басқа студенттермен байланысыңыз",
+    "join": "Қосылу",
+    "profile": "Сіздің профиліңіз",
+    "profileDesc": "Аккаунт параметрлерін басқару",
+    "edit": "Өңдеу"
+  },
+  "profile": {
+    "notFound": "Профиль табылмады",
+    "edit": "Профильді өңдеу",
+    "startChat": "Чат бастау",
+    "joined": "Қосылды",
+    "education": "Білім",
+    "skills": "Дағдылар",
+    "achievements": "Жетістіктер",
+    "present": "Қазіргі уақытқа дейін"
+  }
+}

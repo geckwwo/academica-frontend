@@ -1,0 +1,133 @@
+{
+  "auth": {
+    "welcome": "Welcome to Academica Hub",
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "username": "Username",
+    "password": "Password",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "createAccount": "Create an account",
+    "haveAccount": "Already have an account?",
+    "noAccount": "Don't have an account? Register",
+    "problems": "Problems?",
+    "contactSupport": "Contact our support"
+  },
+  "onboarding": {
+    "joinTitle": "JOIN THE",
+    "joinSubtitle": "ACADEMICA HUB",
+    "step": "Step {{current}} of {{total}}",
+    "steps": {
+      "target": {
+        "title": "Your Target",
+        "description": "What are you aiming to achieve?",
+        "placeholder": "e.g., Become a software engineer"
+      },
+      "skills": {
+        "title": "Your Skills",
+        "description": "What skills do you have?",
+        "placeholder": "e.g., JavaScript, React, Design"
+      },
+      "hobbies": {
+        "title": "Your Hobbies",
+        "description": "What do you enjoy doing?",
+        "placeholder": "e.g., Reading, Gaming, Music"
+      }
+    },
+    "next": "Next",
+    "complete": "Complete",
+    "saving": "Saving..."
+  },
+  "navbar": {
+    "search": "Search opportunities, people...",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "tabs": {
+    "internships": "Internships",
+    "grants": "Grants/Scholarships",
+    "events": "Events",
+    "mentors": "Mentors",
+    "housing": "Housing",
+    "clubs": "Clubs"
+  },
+  "main": {
+    "recommendedPeople": "Recommended People",
+    "recommendedOpportunities": "Recommended Opportunities",
+    "viewAll": "View all",
+    "filter": "Filter",
+    "noOpportunities": "No opportunities found"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "askAI": "Ask AI Assistant"
+  },
+  "people": {
+    "lookingFor": "Looking for",
+    "connect": "Connect"
+  },
+  "categories": {
+    "internship": "Internship",
+    "grant": "Grant",
+    "hackathon": "Hackathon",
+    "job": "Job",
+    "mentor": "Mentor",
+    "event": "Event"
+  },
+  "trust": {
+    "official": "Official",
+    "trusted": "Trusted",
+    "unverified": "Unverified"
+  },
+  "opportunity": {
+    "expired": "Expired",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "daysLeft": "{{days}} days left",
+    "back": "Back to Dashboard",
+    "notFound": "Opportunity not found",
+    "backToDashboard": "Back to Dashboard",
+    "deadline": "Deadline",
+    "source": "View Source",
+    "description": "Description",
+    "requirements": "Requirements",
+    "apply": "Apply Now"
+  },
+  "footer": {
+    "description": "Your gateway to academic opportunities worldwide. Find internships, scholarships, mentors and more.",
+    "programs": "Programs",
+    "internships": "Internships",
+    "scholarships": "Scholarships",
+    "mentors": "Mentors",
+    "housing": "Housing",
+    "clubs": "Clubs",
+    "contacts": "Contacts",
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy"
+  },
+  "dashboard": {
+    "welcome": "Welcome to Academica Hub",
+    "logout": "Logout",
+    "opportunities": "Opportunities",
+    "opportunitiesDesc": "Discover internships, grants, and more",
+    "explore": "Explore",
+    "community": "Community",
+    "communityDesc": "Connect with other students",
+    "join": "Join",
+    "profile": "Your Profile",
+    "profileDesc": "Manage your account settings",
+    "edit": "Edit Profile"
+  },
+  "profile": {
+    "notFound": "Profile not found",
+    "edit": "Edit Profile",
+    "startChat": "Start Chat",
+    "joined": "Joined",
+    "education": "Education",
+    "skills": "Skills",
+    "achievements": "Achievements",
+    "present": "Present"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "auth": {
+    "welcome": "Добро пожаловать в Academica Hub",
+    "login": "Войти",
+    "register": "Регистрация",
+    "email": "Email",
+    "username": "Имя пользователя",
+    "password": "Пароль",
+    "loading": "Загрузка...",
+    "error": "Произошла ошибка",
+    "createAccount": "Создать аккаунт",
+    "haveAccount": "Уже есть аккаунт?",
+    "noAccount": "Нет аккаунта? Зарегистрироваться",
+    "problems": "Проблемы?",
+    "contactSupport": "Связаться с поддержкой"
+  },
+  "onboarding": {
+    "joinTitle": "ПРИСОЕДИНЯЙСЯ К",
+    "joinSubtitle": "ACADEMICA HUB",
+    "step": "Шаг {{current}} из {{total}}",
+    "steps": {
+      "target": {
+        "title": "Ваша цель",
+        "description": "Чего вы хотите достичь?",
+        "placeholder": "напр., Стать программистом"
+      },
+      "skills": {
+        "title": "Ваши навыки",
+        "description": "Какими навыками вы владеете?",
+        "placeholder": "напр., JavaScript, React, Дизайн"
+      },
+      "hobbies": {
+        "title": "Ваши хобби",
+        "description": "Чем вы любите заниматься?",
+        "placeholder": "напр., Чтение, Игры, Музыка"
+      }
+    },
+    "next": "Далее",
+    "complete": "Завершить",
+    "saving": "Сохранение..."
+  },
+  "navbar": {
+    "search": "Поиск возможностей, людей...",
+    "profile": "Профиль",
+    "settings": "Настройки",
+    "logout": "Выйти"
+  },
+  "tabs": {
+    "internships": "Стажировки",
+    "grants": "Гранты/Стипендии",
+    "events": "Мероприятия",
+    "mentors": "Менторы",
+    "housing": "Жильё",
+    "clubs": "Клубы"
+  },
+  "main": {
+    "recommendedPeople": "Рекомендуемые люди",
+    "recommendedOpportunities": "Рекомендуемые возможности",
+    "viewAll": "Смотреть все",
+    "filter": "Фильтр",
+    "noOpportunities": "Возможности не найдены"
+  },
+  "notifications": {
+    "title": "Уведомления",
+    "askAI": "Спросить ИИ-ассистента"
+  },
+  "people": {
+    "lookingFor": "Ищет",
+    "connect": "Связаться"
+  },
+  "categories": {
+    "internship": "Стажировка",
+    "grant": "Грант",
+    "hackathon": "Хакатон",
+    "job": "Работа",
+    "mentor": "Ментор",
+    "event": "Мероприятие"
+  },
+  "trust": {
+    "official": "Официальный",
+    "trusted": "Проверенный",
+    "unverified": "Не проверен"
+  },
+  "opportunity": {
+    "expired": "Истёк",
+    "today": "Сегодня",
+    "tomorrow": "Завтра",
+    "daysLeft": "{{days}} дн. осталось",
+    "back": "Назад",
+    "notFound": "Возможность не найдена",
+    "backToDashboard": "Вернуться на главную",
+    "deadline": "Дедлайн",
+    "source": "Источник",
+    "description": "Описание",
+    "requirements": "Требования",
+    "apply": "Подать заявку"
+  },
+  "footer": {
+    "description": "Ваш путь к академическим возможностям по всему миру. Найдите стажировки, стипендии, менторов и многое другое.",
+    "programs": "Программы",
+    "internships": "Стажировки",
+    "scholarships": "Стипендии",
+    "mentors": "Менторы",
+    "housing": "Жильё",
+    "clubs": "Клубы",
+    "contacts": "Контакты",
+    "rights": "Все права защищены",
+    "privacy": "Политика конфиденциальности"
+  },
+  "dashboard": {
+    "welcome": "Добро пожаловать в Academica Hub",
+    "logout": "Выйти",
+    "opportunities": "Возможности",
+    "opportunitiesDesc": "Стажировки, гранты и многое другое",
+    "explore": "Исследовать",
+    "community": "Сообщество",
+    "communityDesc": "Общайтесь с другими студентами",
+    "join": "Присоединиться",
+    "profile": "Ваш профиль",
+    "profileDesc": "Управление настройками аккаунта",
+    "edit": "Редактировать"
+  },
+  "profile": {
+    "notFound": "Профиль не найден",
+    "edit": "Редактировать профиль",
+    "startChat": "Начать чат",
+    "joined": "Присоединился",
+    "education": "Образование",
+    "skills": "Навыки",
+    "achievements": "Достижения",
+    "present": "По настоящее время"
+  }
+}
