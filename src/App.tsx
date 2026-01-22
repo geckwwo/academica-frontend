@@ -6,6 +6,7 @@ import Onboarding from '@/src/pages/onboarding';
 import Dashboard from '@/src/pages/dashboard';
 import OpportunityPage from '@/src/pages/opportunity';
 import ProfilePage from '@/src/pages/profile';
+import ChatPage from '@/src/pages/chat';
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
   const { isAuthenticated, isLoading } = useAuth();
@@ -91,6 +92,14 @@ function AppRoutes() {
         element={
           <ProtectedRoute>
             <ProfilePage />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/messages"
+        element={
+          <ProtectedRoute>
+            <ChatPage />
           </ProtectedRoute>
         }
       />

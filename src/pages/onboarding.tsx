@@ -76,14 +76,14 @@ export default function Onboarding() {
         <div
           className="relative h-[520px] w-[380px] rounded-3xl overflow-hidden shadow-2xl"
           style={{
-            backgroundImage: 'url(/onboarding.jpg)',
+            backgroundImage: 'url(/onboarding.png)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
         >
-          {/* Gradient overlay */}
+          {/* Gradient overlay 
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-
+*/}
           {/* Content */}
           <div className="absolute bottom-0 left-0 right-0 p-8">
             <h2 className="text-3xl font-bold text-white leading-tight">
@@ -97,12 +97,8 @@ export default function Onboarding() {
           {/* Top Bar - Logo & Language */}
           <div className="flex justify-between items-center mb-6">
             {/* Logo */}
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">A</span>
-              </div>
-              <span className="font-semibold text-gray-800">academica</span>
-            </div>
+            
+            <img src="/logo.png" alt="Academica Hub" className="h-10" />
 
             {/* Language Selector */}
             <div className="relative">
